@@ -19,7 +19,7 @@ const TrackCard = ({ track }) => {
         <CardBody>
           <CardTitle>{title || ''}</CardTitle>
           <CardFooter>
-            <AuthorImage src={author.photo} />
+            <AuthorImage src={author.avatar} />
             <AuthorAndTrack>
               <AuthorName>{author.name}</AuthorName>
               <TrackLength>

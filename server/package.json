@@ -1,12 +1,16 @@
 {
   "name": "catstronauts-server-complete",
   "version": "1.0.0",
+  "type": "module",
   "description": "back-end demo app for Apollo's lift-off course",
   "main": "src/index.js",
   "scripts": {
     "start": "nodemon src/index"
   },
-  "dependencies": {},
+  "dependencies": {
+    "apollo-server": "^3.6.7",
+    "graphql": "^16.3.0"
+  },
   "devDependencies": {
     "dotenv": "^8.2.0",
     "nodemon": "^2.0.4"

@@ -15,9 +15,6 @@ const Header = ({ children }) => {
         <HomeButtonContainer>
           <HomeLink to="/">
             <HomeButton>
-              <LogoContainer>
-                <Logo src={logo} />
-              </LogoContainer>
               <Title>
                 <h3>Catstronaut</h3>
                 <div>Kitty space academy</div>
@@ -67,14 +64,6 @@ const HomeButton = styled.div({
   ':hover': {
     color: colors.pink.dark,
   },
-});
-
-const LogoContainer = styled.div({ display: 'flex', alignSelf: 'center' });
-
-const Logo = styled.img({
-  height: 60,
-  width: 60,
-  marginRight: 8,
 });
 
 const Title = styled.div({

@@ -26,7 +26,6 @@ const FooterContainer = styled.div({
   alignItems: 'center',
   color: colors.pink.base,
   marginTop: 30,
-  height: 200,
   padding: 20,
   backgroundColor: 'white',
   borderTop: `solid 1px ${colors.pink.light}`,
